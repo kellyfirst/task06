@@ -42,10 +42,30 @@
 }
 .main-top-picture{
     float:left;
+    position:relative;
+    
 }
 .main-top img{
     width: 641px;
     height: 301px;
+}
+.main-top-picture .cover-left{
+    height: 301px;
+    width: 191px;
+    background-color:#7AFF4D ;
+    opacity:0.2;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.main-top-picture .cover-right{
+    height: 301px;
+    width: 191px;
+    background-color:#FF9999 ;
+    opacity:0.2;
+    position:absolute;
+    top:0;
+    right:0;
 }
 .main-top .sidebar{
     width: 203px;
