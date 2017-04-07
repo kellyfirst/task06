@@ -1,0 +1,324 @@
+*{
+    padding:0;
+    margin:0;
+}
+#header{
+    width: 892px;
+    height: 61px;
+    border-bottom:2px solid #938e8e;
+    margin:0 auto;
+}
+.logo{
+    width: 200px;
+    height: 61px;
+    background-color: #D45D5C;
+    float:left;
+    position:relative;
+}
+.logo span{
+    color:#fff;
+    font:12px "simhei";
+    position:absolute;
+    bottom:0;
+    left:10px;
+}
+.time{
+    width: 60px;
+    height: 61px;
+    font:12px "simhei";
+    color:#d45d5c;
+    float:right;
+    position:relative;
+}
+#header .time span{
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+#content{
+    width: 892px;
+    height:auto;
+    margin:35px auto;
+}
+.main-top-picture{
+    float:left;
+}
+.main-top img{
+    width: 641px;
+    height: 301px;
+}
+.main-top .sidebar{
+    width: 203px;
+    height: 301px;
+    float:right;
+    border-top:2px solid #cc8091;
+    position:relative;
+}
+.main-top .sidebar h2{
+    height:40px;
+    font:24px/40px "microsoft yahei";
+    color:#000;
+    text-decoration:underline;
+
+}
+.main-top .sidebar .title{
+    height:10px;
+    font:12px/10px "kaiti_GB2312";
+
+}
+.main-top .sidebar .p1 {
+    font:700 116px "microsoft yahei";
+    color:#75b86b;
+    font-style:oblique;
+   text-indent:-21px;
+}
+.main-top .sidebar .p2{
+    font:55px "microsoft yahei";
+    color:#cc8091;
+}
+.main-top .sidebar .box3{
+    position:absolute;
+    top:261px;
+    left:80px;
+}
+.main-top .sidebar .p3{
+    font:21px "microsoft yahei";
+    color:#cc8091;
+
+}
+.main-top .sidebar .p4{
+    font:12px "microsoft yahei";
+    color:#CCCCCC;
+}
+.article{
+    width:641px;
+    height:280px;
+    float:left;
+}
+.main-top .intro1{
+    width:30%;
+    margin-left:0;
+    float:left;
+}
+.main-top .intro1 h3{
+    font:700 16px "microsoft yahei";
+    text-decoration:underline;
+    color:#418c59;
+}
+.main-top .intro2{
+    width:30%;
+    margin-left:28px;
+    float:left;
+}
+.main-top .intro2 h3{
+    font:700 16px "microsoft yahei";
+    text-decoration:underline;
+    color:#d2994f;
+}
+.main-top .intro3 h3{
+    font:700 16px "microsoft yahei";
+    text-decoration:underline;
+    color:#cc7680;
+}
+
+.main-top .intro3{
+    width: 30%;
+    margin-left:28px;
+    float:left;
+}
+.main-top .intro1 p{
+    line-height:16px;
+    font:12px "simsun";
+    color:#767777;
+}
+.main-top .intro2 p{
+    line-height:16px;
+    font:12px "microsoft yahei";
+    color:#231815;
+    opacity:0.7;
+}
+
+.main-top .intro3 p{
+    line-height:16px;
+    font:12px "microsoft yahei";
+    color:#231815;
+    opacity:0.7;
+}
+.main-bottom{
+    width: 890px;
+    height: 607px;
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    height:0;
+    line-height:0;
+    visibility:hidden;
+    clear:both;
+}
+.clearfix{
+    zoom:1;
+}
+.main-bottom .article-title{
+    float:left;
+    width: 415px;
+    height: 156px;
+    border-bottom:2px solid #000;
+}
+.main-bottom .article-title h1 span{
+    font:700 72px "simhei";
+    color:#f5e327;
+    font-style:oblique;
+}
+.main-bottom .article-title h1{
+    font:700 42px "simhei";
+    color:#11456b;
+    line-height:16px;
+
+}
+.main-bottom .article-title h2{
+    font:700 33px "simhei";
+    color:#11456b;
+    line-height:65px;
+}
+.main-bottom-picture{
+    float:right;
+}
+.main-bottom-picture img {
+        width: 458px;
+        height: 275px;
+    }
+.main-bottom .article2{
+    width: 415px;
+    height:432px;
+    float:left;
+    position:relative;
+}
+.main-bottom .article2 p{
+    font:12px"simsun";
+    color:#767777;
+    text-indent:2em;
+    line-height:16px;
+}
+.main-bottom .text p{
+    text-indent:0;
+    margin-top:20px;
+}
+.main-bottom .text p:first-letter{
+    color:#f5e327;
+    font:70px "mircosoft yahei";
+    line-height:70px;
+    float:left;
+}
+
+.main-bottom .article2 img{
+    width: 166px;
+    height: 287px;
+    float:right;
+}
+
+.main-bottom .banner{
+    width: 459px;
+    height: 318px;
+    background-color: #EEEDD6;
+    float:right;
+    position:relative;
+    margin-bottom:40px;
+}
+.banner ul{
+    list-style:none;
+    margin-top:20px;
+
+}
+.banner ul li{
+    display:inline-block;
+    background:url("../image/triangle.png")no-repeat 26px 14px;
+   line-height:20px;
+    font:12px/40px "simsun";
+
+   padding-left:40px;
+
+}
+.main-bottom .box1{
+    width: 260px;
+    height: 160px;
+    color:#fff;
+    background-color: #D45D5C;
+    position:absolute;
+    left:0;
+    bottom:0px;
+
+}
+.main-bottom .banner .left{
+    width: 80px;
+    height: 86px;
+    border-right:2px solid #fff;
+    color:#fff;
+    font: 700 110px/86px "microsoft yahei";
+    text-align:center;
+    margin-top:35px;
+
+}
+.main-bottom .banner .right{
+    height: 86px;
+    width: 172px;
+    float:right;
+    margin-top:-75px;
+}
+.main-bottom .box1 p{
+    font:21px "simhei";
+    line-height:20px;
+    color:#fff;
+    font-style:oblique;
+}
+.main-bottom .box1 .small{
+    font:12px "simhei";
+
+    line-height:12px;
+    color:#fff;
+}
+.main-bottom .box2{
+    width: 176px;
+    height: 137px;
+    position:absolute;
+    right:0;
+    bottom:0;
+    text-align:center;
+    padding:10px;
+
+}
+.main-bottom .box2 p{
+    font:14px "simhei";
+    font-style:oblique;
+    line-height:16px;
+    color:#5a5b5b;
+    text-indent:2em;
+
+}
+.main-bottom .box2  .le{
+    font:72px "simhei";
+    color:#d45d5c;
+    position:absolute;
+    bottom:91px;
+    left:-43px;
+}
+.main-bottom .box2  .ri{
+    font:72px "simhei";
+    color:#d45d5c;
+
+    position:absolute;
+    bottom:-14px;
+    left:110px;
+}
+#footer{
+    width: 892px;
+    height:auto;
+    clear:both;
+    margin:40px auto;
+    border-top:1px solid #938e8c;
+}
+#footer p{
+    font:12px "simhei";
+    color:#d45d5c;
+    float:right;
+}
